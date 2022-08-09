@@ -2,6 +2,12 @@
 <html lang="es">
 
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
         <meta charset="utf-8">
         <title>Welcome to my page!</title>
         <link href="paginapersonal.css" type="text/css" rel="stylesheet">
@@ -9,8 +15,11 @@
 
     <body>
 
-        <header>This page is a work in progress ¯\_(ツ)_/¯</header>
-        <h1 id="About Me">About Me</h1>
+        <header >¯\_(ツ)_/¯ This page is a work in progress ¯\_(ツ)_/¯</header>
+        <div id="alert">
+            <span>&#9786;</span> YOU'RE ALREADY HERE! <span>&#9786;</span>
+        </div>
+        <h1 id="AboutMe">About Me</h1>
             <p>
                 I'm Franco, IT is my passion and my goal is to learn something new about it everyday.
             </p>
@@ -19,18 +28,14 @@
                 Since I was a child I do small projects as a hobby. My formal education began in 2022 at "Jóvenes a Programar" course.
             </p>
         <h2>Portfolio</h2>
-            <img src="source/Portfolio.png" alt="example" width="200">
-            <img src="source/Portfolio2.png" alt="example" width="200">
-            <p>
-
-            </p>
+            <img src="source/Portfolio.png" alt="example" width="50%">
+            <img src="source/Portfolio2.png" alt="example" width="50%">
         <h2>Contact me</h2>
-        <ul>
-            <li><a title="Personal website" href="#AboutMe">Franco Gagliano</a></li>
-            <li><a title="My Github" target="_blank" href="https://github.com/frangag"><img src="source/GitHub-Mark/PNG/GitHub-Mark-120px-plus.png" alt="Github Logo" id="Social Media" width="25"></a></li>
-            <li><a title="My Twitter" target="_blank" href="https://twitter.com"><img src="source/Twitter social icons/Twitter social icons - circle/Twitter social icons - circle - blue.png" alt="Twitter Logo" id="Social Media" width="25"></a></li>
-            <li><a  title="My LinkedIn" target="_blank" href="https://linkedin.com"><img src="/source/LinkedIn-Logos/LI-In-Bug.png" alt="Linkedin Logo" id="Social Media" width="30"></a></li>
-        </ul>
+            <p id="imgs"> <button onclick="func()" id="button"> <a title="Personal website" href="#alert">Franco Gagliano</a></button></p>
+            <p id="imgs"><a title="My Github" target="_blank" href="https://github.com/frangag"><img src="source/GitHub-Mark/PNG/GitHub-Mark-120px-plus.png" alt="Github Logo" id="Social Media" width="10%"></a></p>
+            <p id="imgs"><a title="My Twitter" target="_blank" href="https://twitter.com"><img src="source/Twitter social icons/Twitter social icons - circle/Twitter social icons - circle - blue.png" alt="Twitter Logo" id="Social Media" width="10%"></a></p>
+            <p id="imgs"><a title="My LinkedIn" target="_blank" href="https://linkedin.com"><img src="/source/LinkedIn-Logos/LI-In-Bug.png" alt="Linkedin Logo" id="Social Media" width="10%"></a></p>
+        <script src="script.js"></script>
     </body>
 
 </html>

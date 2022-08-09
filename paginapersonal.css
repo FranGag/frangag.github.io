@@ -1,4 +1,99 @@
-body{
-    font-family: 'Bebas Neue', cursive;
+body {
+  background: transparent;
+  font-family: 'Bebas Neue', cursive;
 }
 
+header {
+  text-align: center;
+  background: transparent;
+}
+
+*{
+  text-align: center;
+  background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(49,49,185,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+p{
+  text-align: justify;
+  background: transparent;
+}
+
+h1 {
+  background: transparent;
+}
+
+h2 {
+  background: transparent;
+}
+
+#alert {
+font-size: 40px;
+text-align: center;
+background: transparent;
+}
+
+div > span {
+  background: transparent;
+}
+
+footer {
+  background: transparent;
+}
+
+li {
+  background: transparent;
+}
+
+button {
+  background: transparent;
+  width: 100%;
+  font-family: 'BhuTuka Expanded One', cursive;
+  color: black;
+  font-weight: 900;
+  border: none;
+  font-size: 160%;
+}
+
+a {
+  background: transparent;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+p#imgs{
+  text-align: center;
+}
+
+img {
+  background: transparent;
+}
+
+/* details > p {
+    padding: 1rem;
+    margin: 0
+  }
+  
+  details[open] {
+    visibility: hidden;
+    position: fixed;
+    width: 33%;
+    transform: translate(calc(50vw - 50%), calc(50vh - 50%));
+    transform-origin: center center;
+    outline: 10000px #000000d4 solid;
+    animation: alertBox 5s;
+    border: 15px rgb(93, 35, 230) solid;
+  }
+  
+  details[open] summary::after {
+    content: '❌';
+    float: right
+  }
+  
+  @keyframes alertBox {
+    0%   { visibility: unset}
+    100% { visibility: hidden }
+  }
